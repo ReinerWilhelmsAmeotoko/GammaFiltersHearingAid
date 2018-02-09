@@ -5,7 +5,7 @@ Todo: Gamma filter bank. Components:
 
 makeParameterStructures:
  Construct the C++ classes needed to define the filter bank
- from a few configuration parameters, such as: smampling rate,
+ from a few configuration parameters, such as: sampling rate,
  number of channels, number of filterbanks, parameters that
  describe the bandwidths as function of frequency.
 
@@ -41,7 +41,3 @@ with clean speech signals first so it learns mainly the dynamics
 of speech signals. Later the system is improved by learning
 to reconstruct speech signals from corrupted speech signals, both
 with noise and reverberation.
-
-
-
-
